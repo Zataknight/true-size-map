@@ -1,0 +1,13 @@
+type FavoriteComparison = 
+ record {
+   countryIds: vec text;
+   createdAt: int;
+   id: text;
+   metric: text;
+   name: text;
+ };
+service : {
+  deleteFavorite: (id: text) -> (bool);
+  getFavorites: () -> (vec FavoriteComparison) query;
+  saveFavorite: (name: text, countryIds: vec text, metric: text) -> (text);
+}

@@ -1,0 +1,24 @@
+{
+  "overview": "True Size Map is an interactive educational world map that lets you compare countries by their real size, population, or GDP. Drag any country anywhere on the map, switch between map projections, and instantly see how countries compare to each other.",
+  "features": [
+    "Real geographic shapes for all 195+ countries",
+    "Drag and reposition up to 6 countries simultaneously",
+    "Switch between Mercator and equal-area projections",
+    "Compare countries by area, population, or GDP",
+    "Save and load favorite country comparisons",
+    "Export the map view as a PNG image",
+    "Auto-generated comparison sentences",
+    "Tropic and equator distortion visualization",
+    "Mobile-friendly touch interactions"
+  ],
+  "category": "education",
+  "tags": [
+    "map",
+    "geography",
+    "education",
+    "comparison",
+    "interactive",
+    "world"
+  ],
+  "last_updated": "2026-04-14T19:19:06.005Z"
+}

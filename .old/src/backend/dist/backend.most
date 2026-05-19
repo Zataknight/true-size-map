@@ -1,0 +1,26 @@
+// Version: 1.0.0
+type Data__791452850<K, V> =
+  {var count : Nat__490723111; kvs : [var ?(K, V)]};
+type FavoriteComparison__29840917 =
+  {
+    countryIds : [Text];
+    createdAt : Int;
+    id : Text;
+    metric : Text;
+    name : Text
+  };
+type Internal__8484328<K, V> =
+  {children : [var ?Node__46230540<K, V>]; data : Data__791452850<K, V>};
+type Leaf__809889148<K, V> = {data : Data__791452850<K, V>};
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+type Node__46230540<K, V> =
+  {#internal : Internal__8484328<K, V>; #leaf : Leaf__809889148<K, V>};
+actor {
+  stable favorites :
+    {
+      var root : Node__46230540<Text, FavoriteComparison__29840917>;
+      var size : Nat__490723111
+    };
+  stable var nextId : Nat
+};
